@@ -45,9 +45,27 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(width: 30),
 
               AppCard(
-                title: 'Disney+',
-                image: 'assets/images/Disney+.png',
-                video: 'videos/Polsat 2 - ident (2007).mp4',
+                title: 'NordVPN',
+                image: 'assets/images/NordVPN.png',
+                video: 'videos/(REQUESTED) Doomsday AT&T sound effect 1 - A Second Take.mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Rakuten',
+                image: 'assets/images/Rakuten.png',
+                video: 'videos/Noggin Originals (1999-2003).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'TVP VOD',
+                image: 'assets/images/TVP VOD.png',
+                video: 'videos/Feature Presentation Handwriting In STJS G Major.mp4',
                 onHover: changeBackground,
               ),
 
@@ -63,24 +81,6 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(width: 30),
 
               AppCard(
-                title: 'WP Pilot',
-                image: 'assets/images/WP Pilot.png',
-                video: 'videos/(REUPLOAD) Snee-Oosh In STJ's G Major.mp4',
-                onHover: changeBackground,
-              ),
-
-              const SizedBox(width: 30),
-
-              AppCard(
-                title: 'Polsat Box Go',
-                image: 'assets/images/Polsat Box Go.png',
-                video: 'videos/Grupa Polsat Plus. Wybierz Swoje Wszystko..mp4',
-                onHover: changeBackground,
-              ),
-
-              const SizedBox(width: 30),
-
-              AppCard(
                 title: 'Canal+',
                 image: 'assets/images/Canal+.png',
                 video: 'videos/Intel Leap Ahead (2006-2008) Logo.mp4',
@@ -90,10 +90,122 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(width: 30),
 
               AppCard(
+                title: 'Disney+',
+                image: 'assets/images/Disney+.png',
+                video: 'videos/Polsat 2 - ident (2007).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Polsat Box Go',
+                image: 'assets/images/Apple TV.png',
+                video: 'videos/Grupa Polsat Plus. Wybierz swoje wszystko..mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'SkyShowtime',
+                image: 'assets/images/SkyShowtime.png',
+                video: 'videos/TVN7 Nieużywana pętla nocna (2013) (HQ).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Player',
+                image: 'assets/images/Player.png',
+                video: 'videos/Player original logo (America and Countries).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
                 title: 'Viaplay',
                 image: 'assets/images/Viaplay.png',
-                video: 'videos/(NOT MY VIDEO) MassDPH Logo In Horrorifying Scary Mike Paul's G Major.mp4',
+                video: 'videos/Polsat Café - Ident (2008-dziś).mp4',
                 onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Apple TV',
+                image: 'assets/images/Apple TV.png',
+                video: 'videos/Polsat - Ident (2006-2019).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'TVP Go',
+                image: 'assets/images/TVP Go.png',
+                video: 'videos/PBS Kids Dash Logo (Greatest Quality).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'SWEET.TV',
+                image: 'assets/images/Sweet TV.png',
+                video: 'videos/Nelvana Limited Logo (2004).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Megogo',
+                image: 'assets/images/Megogo.png',
+                video: 'videos/[REKONSTRUKCJA] nFilm - dżingle _polecamy_ (2009-2011).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'WP Pilot',
+                image: 'assets/images/WP Pilot.png',
+                video: 'videos/(REUPLOAD) Snee-Oosh In STJ's G-Major.mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'Odysee',
+                image: 'assets/images/Odysee.png',
+                video: 'videos/Polsat Play ident (2008).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'CDA Premium',
+                image: 'assets/images/CDA Premium.png',
+                video: 'videos/[#1627] Red DHX Media Logo.mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
+                title: 'TVN24',
+                image: 'assets/images/TVN24.png',
+                video: 'videos/videoplayback.mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
               ),
             ],
           ),
