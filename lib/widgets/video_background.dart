@@ -86,7 +86,6 @@ class _VideoBackgroundState extends State<VideoBackground> {
             ),
           ),
 
-        // Dark overlay so the apps remain readable.
         Container(
           color: Colors.black.withValues(alpha: 0.35),
         ),
