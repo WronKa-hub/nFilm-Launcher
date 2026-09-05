@@ -22,13 +22,13 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
-      - name: Check localization files
+      - name: Find formattedDate
         run: |
-          echo "=== All formattedDate definitions ==="
-          grep -R -n -A8 -B2 '"formattedDate"' lib/l10n/ || true
+          echo "=== formattedDate ==="
+          grep -R -n -A10 -B2 '"formattedDate"' . --include='*.arb' || true
 
-      - name: Build APK
-        run: flutter build apk --release
+          echo "=== dateString ==="
+          grep -R -n -A6 -B2 '"dateString"' . --include='*.arb' || true
 
       - name: Build APK
         run: flutter build apk --release
