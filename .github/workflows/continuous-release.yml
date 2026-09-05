@@ -21,6 +21,13 @@ jobs:
 
       - name: Get dependencies
         run: flutter pub get
+      - name: Check localization files
+        run: |
+          echo "Checking app_es.arb:"
+          grep -A8 -B2 '"formattedDate"' lib/l10n/app_es.arb
+
+          echo "Checking app_en.arb:"
+          grep -A8 -B2 '"formattedDate"' lib/l10n/app_en.arb
 
       - name: Build APK
         run: flutter build apk --release
