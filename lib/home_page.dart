@@ -81,6 +81,15 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(width: 30),
 
               AppCard(
+                title: 'HBO Max',
+                image: 'assets/images/HBO Max.png',
+                video: 'videos/TVN - Pauza (2009-2013).mp4',
+                onHover: changeBackground,
+              ),
+
+              const SizedBox(width: 30),
+
+              AppCard(
                 title: 'Canal+',
                 image: 'assets/images/Canal+.png',
                 video: 'videos/Intel Leap Ahead (2006-2008) Logo.mp4',
