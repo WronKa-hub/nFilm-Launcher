@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               AppCard(
                 title: 'Netflix',
-                image: 'assets/images/netflix.png',
+                image: 'assets/images/Netflix.png',
                 video: 'videos/Telewizja N LOGO HIGH DEFINITION HD TELEWIZJA NOWEJ GENERACJI WŁĄCZ CIEKAWOŚĆ 6S FAN MADE LOGO.mp4',
                 onHover: changeBackground,
               ),
@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
 
               AppCard(
                 title: 'YouTube',
-                image: 'assets/images/youtube.png',
+                image: 'assets/images/YouTube.png',
                 video: 'videos/TV Puls - ident (2010).mp4',
                 onHover: changeBackground,
               ),
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
 
               AppCard(
                 title: 'Player',
-                image: 'assets/images/Player.png',
+                image: 'assets/images/player.png',
                 video: 'videos/Player original logo (America and Countries).mp4',
                 onHover: changeBackground,
               ),
@@ -172,7 +172,7 @@ class _HomePageState extends State<HomePage> {
 
               AppCard(
                 title: 'Megogo',
-                image: 'assets/images/Megogo.png',
+                image: 'assets/images/megogo.png',
                 video: 'videos/[REKONSTRUKCJA] nFilm - dżingle _polecamy_ (2009-2011).mp4',
                 onHover: changeBackground,
               ),
