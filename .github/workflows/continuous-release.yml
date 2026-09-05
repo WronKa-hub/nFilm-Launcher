@@ -24,8 +24,11 @@ jobs:
 
       - name: Check localization files
         run: |
-          echo "Checking formattedDate in all ARB files:"
-          grep -R -A8 -B2 '"formattedDate"' lib/l10n/ || true
+          echo "=== All formattedDate definitions ==="
+          grep -R -n -A8 -B2 '"formattedDate"' lib/l10n/ || true
+
+      - name: Build APK
+        run: flutter build apk --release
 
       - name: Build APK
         run: flutter build apk --release
