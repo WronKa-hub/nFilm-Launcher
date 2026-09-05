@@ -1,10 +1,6 @@
-# FLauncher (fork)
-#### This is a fork of the GitLab repository at: https://gitlab.com/flauncher/flauncher.
+This ATV launcher is for HDTV N/Telewizja N fans! (Android TV only)
 
-FLauncher is an open-source alternative launcher for Android TV, built with [Flutter](https://flutter.dev).
-
-## Download
-Get the latest build from the [releases](https://github.com/osrosal/flauncher/releases) page, you can look for older builds on the [actions](https://github.com/CocoCR300/flauncher/actions) tab, where they are uploaded as artifacts.
+DESCRIPTION:
 
 ## Features
 For a list of the changes introduced by this fork from the original, see the [CHANGELOG](CHANGELOG.md) file.
@@ -56,13 +52,7 @@ $ adb shell pm enable com.google.android.apps.tv.launcherx
 $ adb shell pm enable com.google.android.tungsten.setupwraith
 ```
 
-#### Known issues
-On Chromecast with Google TV (maybe others), the "YouTube" remote button will stop working if the default launcher is disabled. As a workaround, you can use [Button Mapper](https://play.google.com/store/apps/details?id=flar2.homebutton) to remap it correctly.
+Credit goes to nFilmHD for the launcher.
+nFilmHD belongs to HDTV N/Telewizja n. I own nothing but my launcher.
 
-## Wallpaper
-Because Android's `WallpaperManager` is not available on some Android TV devices, FLauncher implements its own wallpaper management method.
-
-Please note that changing wallpaper requires a file explorer to be installed on the device in order to pick a file.
-
-## Support the original author: [etienn01](https://github.com/etienn01)
-<a href="https://www.buymeacoffee.com/etienn01" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200"></a>
+WARNING: DO NOT STEAL MY LAUNCHER! I MADE MY OWN LAUNCHER FOR ENTERTAINMENT PURPOSES ONLY!
