@@ -18,11 +18,6 @@ For a list of the changes introduced by this fork from the original, see the [CH
 - [x] Navigation sound feedback
 - [ ] Force stop app
 
-## Screenshots
-|  |  |  |
-|--|--|--|
-| ![](screenshots/Screenshot_1624378896.png) | ![](screenshots/Screenshot_1624378921.png) | ![](screenshots/Screenshot_1624378938.png) |
-
 ## Set FLauncher as default launcher
 
 ### Method 1: remap the Home button
